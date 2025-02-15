@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class UserController extends Controller
+{
+    public function home()
+    {
+        return view('home');
+    }
+    public function playing()
+    {
+        return view('playmovie');
+    }
+    public function coming()
+    {
+        return view('coming');
+    }
+    public function login()
+    {
+        return view('login');
+    }
+    public function register()
+    {
+        return view('register');
+    }
+    public function detail()
+    {
+        return view('detailfilm');
+    }
+}
